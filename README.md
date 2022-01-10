@@ -2,7 +2,7 @@
 
 After you run `amplify add function`, navigate to src directory using terminal, and then run the following command: 
 
-     rm index.js package.json event.json \
+     rm index.js package.json event.json && \
      git clone https://github.com/hackmajoris/amplify-ts-lambda-skeleton.git && \
      cp -r amplify-ts-lambda-skeleton/{.,}* ./ && rm -rf amplify-ts-lambda-skeleton && \
      rm -rf .git README.md && \
