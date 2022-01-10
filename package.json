@@ -10,6 +10,7 @@
     "lint": "eslint .. --ext .ts",
     "lint:fix": "eslint --fix",
     "format": "prettier --write '**/*.{js,jsx,tsx,css,md,ts,json,yml}'",
+    "amplify:<LAMBDA_NAME>": "cd amplify/backend/function/<LAMBDA_NAME>/src && npm install && npm run tsc && cd -"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.89",
