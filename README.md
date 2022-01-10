@@ -9,3 +9,5 @@ After you run `amplify add function`, navigate to src directory using terminal, 
      npm install && npm run-script tsc 
 
 After the success execution, open `package.json` and change the name of the function to the name of your function at the `amplify:<LAMBDA_NAME>`action (make sure that you change also the path).
+
+You can test then the function by running `amplify mock function` -> LAMBDA_NAME.
